@@ -13,7 +13,7 @@ require 'sinatra/activerecord'
 require 'rake'
 require 'twilio-ruby'
 
-#set :database_file, "D:/drive/Wikibot/Code/config/database.yml"
+set :database_file, "D:/drive/Wikibot/Code/config/database.yml"
 
 # enable sessions for this project
 enable :sessions
